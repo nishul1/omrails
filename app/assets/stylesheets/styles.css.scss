@@ -1,0 +1,24 @@
+/*Here I have changed the font */
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: lighten(red, 15%);
+$navbarBackground: lighten(red, 15%);
+/*$navBarText: black;*/
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
